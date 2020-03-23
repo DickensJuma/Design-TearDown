@@ -36,3 +36,54 @@ nav {
 .article4 {
   background-color: rgb(43, 41, 41);
 }
+
+.main-article {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 10px;
+  grid-template-rows: repeat(3, 1fr);
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+}
+
+.main1, 
+.main2, 
+.main3 {
+  height: 682px;
+}
+
+.main1 {
+  background-color: rgb(182, 181, 181);
+}
+
+.main2 {
+  background-color: rgb(112, 111, 111);
+}
+
+.main3 {
+  background-color: rgb(94, 91, 91);
+}
+
+.main4 {
+  background-color: rgb(143, 137, 137);
+}
+
+.main5 {
+  background-color: rgb(68, 59, 59);
+}
+
+.main6 {
+  background-color: rgb(153, 148, 148);
+}
+
+.main7 {
+  background-color: rgb(221, 211, 211);
+}
+
+.main8 {
+  background-color: rgb(73, 71, 71);
+}
+
+.main9 {
+  background-color: rgb(148, 145, 145);
+}
