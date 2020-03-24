@@ -291,15 +291,48 @@ svg {
 }
 
 footer{
-  background-color:yellow;
-  
+  background-color: #9c929c;
+  text-align: center;
 }
 
-footer > ul{
+footer h4 {
+  font-size: 20px;
+  color: #fff;
+  padding-top: 35px;
+  margin-bottom: 35px;
+}
+
+footer ul{
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 35px auto 40px auto;
+  justify-content: center;
+  width: fit-content;
 }
 
-footer > ul > li, h4{
+.topic {
+  margin: 15px 20px 5px 0;
+}
 
-  color: black;
+.last-link {
+  display: flex;
+  position: relative;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.last-link p {
+  font-size: 15px;
+  margin: 5px;
+  padding: 0;
+}
+
+.last-link > ul > li {
+  margin: 0 15px 15px 15px;
+  list-style: none;
+  text-decoration: underline;
 }
