@@ -46,8 +46,8 @@ nav {
   grid-column-gap: 10px;
 }
 
-.main1, 
-.main2, 
+.main1,
+.main2,
 .main3 {
   height: 682px;
 }
@@ -86,4 +86,72 @@ nav {
 
 .main9 {
   background-color: rgb(148, 145, 145);
+}
+
+.advert {
+  display: flex;
+  justify-content: center;
+  height: 1000px;
+  background-color: gray;
+  margin-top: 10px;
+}
+
+.person_of_the_week {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.person-intro {
+  display: flex;
+  margin-left: 60px;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+.profile-img {
+  height: 200px;
+  width: 200px;
+  /* padding-left: 30px; */
+  background-color: rgb(87, 87, 87);
+}
+
+.person-intro > p {
+  background-color: rgb(128, 125, 125);
+  width: 1100px;
+}
+
+.weekly-articles {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+
+.week1,
+.week2,
+.week3,
+.week4,
+.week5,
+.week6 {
+  height: 442px;
+  margin-top: 10px;
+}
+
+.week1 {
+  background-color: gray;
+}
+.week2 {
+  background-color: rgb(78, 77, 77);
+}
+.week3 {
+  background-color: rgb(170, 166, 166);
+}
+.week4 {
+  background-color: gray;
+}
+.week5 {
+  background-color: rgb(65, 63, 63);
+}
+.week6 {
+  background-color: rgb(43, 42, 42);
 }
