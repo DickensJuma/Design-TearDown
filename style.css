@@ -426,6 +426,48 @@ svg {
   background-color: #979595;
   height: 409px;
   width: 100%;
+  position: relative;
+}
+
+.design-system article {
+  width: 55%;
+  padding: 2%;
+  margin: 40px 20px 0 40px;
+}
+
+.design-system h3 {
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+.design-system h1 a {
+  font-size: 50px;
+  text-decoration: none;
+  border-bottom: solid #666 3px;
+}
+
+.design-system p {
+  font-size: 20px;
+  line-height: 35px;
+}
+
+.design-system h4 {
+  width: fit-content;
+  color: #000;
+  font-size: 25px;
+  padding: 15px 15px;
+  border-radius: 20px;
+  font-weight: 600;
+  background-color: #fff;
+}
+
+.book {
+  width: 300px;
+  height: 400px;
+  position: absolute;
+  left: 65%;
+  top: -5%;
+  background-color: #333;
 }
 
 .guide {
