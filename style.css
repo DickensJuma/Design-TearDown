@@ -118,13 +118,20 @@ svg {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
 }
+.article1,
+.article2,
+.article3,
+.article4 {
+  width: 713px;
+  height: 650px;
+}
 
 .article1 {
-  background-color: rgb(77, 75, 75);
+  background-color: rgb(160, 159, 159);
 }
 
 .article2 {
-  background-color: rgb(73, 71, 71);
+  background-color: rgb(116, 114, 114);
 }
 
 .article3 {
@@ -132,7 +139,7 @@ svg {
 }
 
 .article4 {
-  background-color: rgb(43, 41, 41);
+  background-color: rgb(80, 75, 75);
 }
 
 .main-article {
@@ -255,7 +262,7 @@ svg {
 }
 
 .design-system {
-  background-color: #6e0505;
+  background-color: #979595;
   height: 409px;
   width: 100%;
 }
@@ -273,9 +280,10 @@ svg {
 }
 
 .smashing-newletter {
-  background-color: blue;
+  background-color: rgb(157, 157, 160);
   width: 700px;
   margin-left: 100px;
+  height: 750px;
 }
 
 .see-all {
@@ -290,7 +298,7 @@ svg {
   padding-bottom: 5px;
 }
 
-footer{
+footer {
   background-color: #9c929c;
   text-align: center;
 }
@@ -302,7 +310,7 @@ footer h4 {
   margin-bottom: 35px;
 }
 
-footer ul{
+footer ul {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -335,4 +343,20 @@ footer ul{
   margin: 0 15px 15px 15px;
   list-style: none;
   text-decoration: underline;
+}
+
+.bird,
+.cat {
+  background-color: #333;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+}
+
+.bird {
+  left: -30%;
+}
+
+.cat {
+  right: -30%;
 }
