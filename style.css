@@ -14,6 +14,10 @@ html {
   width: 100%;
 }
 
+h2 {
+  display: none;
+}
+
 nav {
   background-color: gray;
   width: 100%;
@@ -49,6 +53,13 @@ nav {
   margin: 0 auto;
   height: 49px;
   width: 35px;
+}
+
+footer h4 {
+  font-size: 20px;
+  color: #fff;
+  padding-top: 35px;
+  margin-bottom: 35px;
 }
 
 .search {
@@ -246,6 +257,14 @@ svg {
   font-size: 45px;
 }
 
+.weekly-image a {
+  width: 130px;
+  height: 130px;
+  border-radius: 3px;
+  border: solid #333 3px;
+  margin: 15px;
+}
+
 .advert h2 a {
   margin-top: 0;
   font-size: 50px;
@@ -293,6 +312,16 @@ svg {
   margin: 10px 20px 10px 30px;
 }
 
+.design-system h4 {
+  width: fit-content;
+  color: #000;
+  font-size: 25px;
+  padding: 15px 15px;
+  border-radius: 20px;
+  font-weight: 600;
+  background-color: #fff;
+}
+
 .person_of_the_week article h4 {
   font-size: 18px;
   background-color: #fff;
@@ -311,14 +340,6 @@ svg {
 
 .weekly-articles div {
   display: flex;
-}
-
-.weekly-image a {
-  width: 130px;
-  height: 130px;
-  border-radius: 3px;
-  border: solid #333 3px;
-  margin: 15px;
 }
 
 .community {
@@ -364,18 +385,23 @@ svg {
 .week1 {
   background-color: gray;
 }
+
 .week2 {
   background-color: rgb(78, 77, 77);
 }
+
 .week3 {
   background-color: rgb(170, 166, 166);
 }
+
 .week4 {
   background-color: gray;
 }
+
 .week5 {
   background-color: rgb(65, 63, 63);
 }
+
 .week6 {
   background-color: rgb(43, 42, 42);
 }
@@ -407,16 +433,6 @@ svg {
 .design-system p {
   font-size: 20px;
   line-height: 35px;
-}
-
-.design-system h4 {
-  width: fit-content;
-  color: #000;
-  font-size: 25px;
-  padding: 15px 15px;
-  border-radius: 20px;
-  font-weight: 600;
-  background-color: #fff;
 }
 
 .book {
@@ -465,13 +481,6 @@ svg {
 footer {
   background-color: #9c929c;
   text-align: center;
-}
-
-footer h4 {
-  font-size: 20px;
-  color: #fff;
-  padding-top: 35px;
-  margin-bottom: 35px;
 }
 
 footer ul {
@@ -554,8 +563,4 @@ footer > div > ul > a {
 .smashing-newletter > h3,
 .guides {
   font-size: 24px;
-}
-
-h2 {
-  display: none;
 }
