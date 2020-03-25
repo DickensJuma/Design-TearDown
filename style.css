@@ -271,7 +271,6 @@ svg {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   grid-gap: 1rem;
- 
 }
 .guides {
   height: 435px;
@@ -280,8 +279,9 @@ svg {
   background-color: #696969;
 }
 
-.smashing-newletter{
+.smashing-newletter {
   background-color: blue;
-  width: 600px;
-
+  width: 700px;
+  margin-left: 100px;
+  
 }
