@@ -573,14 +573,19 @@ footer ul {
   margin: 40px 0 0 130px;
 }
 
-.subscribe{
+.subscribe {
   height: 62px;
   width: 400px;
   background-color: #525052;
   border-radius: 3px;
-  margin:40px 0 10px 150px;
+  margin: 40px 0 10px 150px;
 }
 
-.smashing-newletter >h1, .guides{
+.smashing-newletter > h3,
+.guides {
   font-size: 24px;
+}
+
+h2 {
+  display: none;
 }
