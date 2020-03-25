@@ -483,6 +483,15 @@ footer ul {
   width: fit-content;
 }
 
+footer div {
+  margin: 0 40px 0 40px;
+}
+
+footer > div > ul > a {
+  text-decoration: none;
+  color: #000;
+}
+
 .topic {
   margin: 15px 20px 5px 0;
 }
@@ -503,7 +512,7 @@ footer ul {
   padding: 0;
 }
 
-.last-link > ul > li {
+.last-link > ul > a{
   margin: 0 15px 15px 15px;
   list-style: none;
   text-decoration: underline;
@@ -518,11 +527,13 @@ footer ul {
 }
 
 .bird {
-  left: -30%;
+  left: -50%;
+  float: left;
 }
 
 .cat {
-  right: -30%;
+  right: -50%;
+  float: right;
 }
 
 .cat-image {
