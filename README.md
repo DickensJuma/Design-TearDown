@@ -92,6 +92,7 @@ You can see it working [here](https://raw.githack.com/DickensJuma/Design-TearDow
     
 - LinkedIn: [Dickens Juma](https://www.linkedin.com/in/dickens-juma-363061182/) 
 - GitHub: [@DickensJuma](https://github.com/DickensJuma)
+- Twitter: [@juma_dickens](https://twitter.com/juma_dickens)
 - E-mail: dickensjuma13@gmail.com
 
 👤 **Glory David** 
