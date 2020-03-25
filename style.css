@@ -289,3 +289,17 @@ svg {
   align-self: center;
   padding-bottom: 5px;
 }
+
+footer{
+  background-color:yellow;
+  
+}
+
+footer > ul{
+  display: flex;
+}
+
+footer > ul > li, h4{
+
+  color: black;
+}
