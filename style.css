@@ -119,13 +119,6 @@ svg {
   grid-template-rows: repeat(2, 1fr);
 }
 
-.article1 .article2,
-.article3,
-.article4 {
-  height: 659px;
-  width: 648px;
-}
-
 .article1 {
   background-color: rgb(77, 75, 75);
 }
@@ -153,7 +146,7 @@ svg {
 
 .main1,
 .main2,
-7 .main3 {
+.main3 {
   height: 682px;
 }
 
@@ -285,3 +278,14 @@ svg {
   margin-left: 100px;
 }
 
+.see-all {
+  text-align: center;
+  color: #333;
+  font-size: 25px;
+  margin: 50px auto 90px auto;
+  text-decoration: underline;
+  width: fit-content;
+  justify-self: center;
+  align-self: center;
+  padding-bottom: 5px;
+}
