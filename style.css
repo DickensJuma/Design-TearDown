@@ -18,6 +18,17 @@ h2 {
   display: none;
 }
 
+footer div {
+  margin: 0 40px 0 40px;
+}
+
+footer h4 {
+  font-size: 20px;
+  color: #fff;
+  padding-top: 35px;
+  margin-bottom: 35px;
+}
+
 nav {
   background-color: gray;
   width: 100%;
@@ -53,13 +64,6 @@ nav {
   margin: 0 auto;
   height: 49px;
   width: 35px;
-}
-
-footer h4 {
-  font-size: 20px;
-  color: #fff;
-  padding-top: 35px;
-  margin-bottom: 35px;
 }
 
 .search {
@@ -492,10 +496,6 @@ footer ul {
   width: fit-content;
 }
 
-footer div {
-  margin: 0 40px 0 40px;
-}
-
 footer > div > ul > a {
   text-decoration: none;
   color: #000;
@@ -521,7 +521,7 @@ footer > div > ul > a {
   padding: 0;
 }
 
-.last-link > ul > a{
+.last-link > ul > a {
   margin: 0 15px 15px 15px;
   list-style: none;
   text-decoration: underline;
