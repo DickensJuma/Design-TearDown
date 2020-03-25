@@ -345,9 +345,52 @@ svg {
 
 .weekly-articles {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 10px;
+  margin: 100px 30px 20px 30px;
+}
+
+.weekly-articles div {
+  display: flex;
+}
+
+.weekly-image a {
+  width: 130px;
+  height: 130px;
+  border-radius: 3px;
+  border: solid #333 3px;
+  margin: 15px;
+}
+
+.community {
+  margin-left: 20px;
+  flex-direction: column;
+}
+
+.community h3, 
+.community h3 a {
+  font-size: 20px;
+  color: #666;
+}
+
+.community h1,
+.community h1 a {
+  padding: 10px 10px 10px 0;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.community p {
+  margin: 0;
+  font-size: 20px;
+  line-height: 18px;
+}
+
+.time {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #666;
 }
 
 .week1,
