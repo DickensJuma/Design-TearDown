@@ -96,9 +96,10 @@ You can see it working [here](https://raw.githack.com/DickensJuma/Design-TearDow
 
 👤 **Glory David** 
     
-- LinkedIn: [](https://www.linkedin) 
-- GitHub: [@](https://github.com/)
-- E-mail: @gmail.com
+- LinkedIn: [Glorydavid](https://www.linkedin/glory-david) 
+- GitHub: [@glowreeyah](https://github.com/glowreeyah)
+- E-mail: glodave99@gmail.com
+- Twitter: [@gloweeeyah](https://twitter.com/gloweeeyah)
 
 
 ## Show your support

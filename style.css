@@ -180,42 +180,6 @@ svg {
   height: 682px;
 }
 
-/* .main1 {
-  background-color: rgb(182, 181, 181);
-}
-
-.main2 {
-  background-color: rgb(112, 111, 111);
-}
-
-.main3 {
-  background-color: rgb(94, 91, 91);
-}
-
-.main4 {
-  background-color: rgb(143, 137, 137);
-}
-
-.main5 {
-  background-color: rgb(68, 59, 59);
-}
-
-.main6 {
-  background-color: rgb(153, 148, 148);
-}
-
-.main7 {
-  background-color: rgb(221, 211, 211);
-}
-
-.main8 {
-  background-color: rgb(73, 71, 71);
-}
-
-.main9 {
-  background-color: rgb(148, 145, 145);
-} */
-
 .main {
   padding: 0 40px;
   line-height: 40px;
@@ -315,12 +279,6 @@ svg {
   margin: 10px 10px 10px 30px;
 }
 
-/* .person-intro {
-  display: flex;
-  margin-left: 60px;
-  margin-top: 10px;
-  justify-content: space-between;
-} */
 .profile-img {
   height: 200px;
   width: 500px;
@@ -475,6 +433,7 @@ svg {
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   grid-gap: 1rem;
 }
+
 .guides {
   height: 435px;
   margin: 10px 35px;
