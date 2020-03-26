@@ -1,0 +1,571 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Jua", sans-serif;
+}
+
+.transform {
+  transform: rotate(-11deg);
+  box-shadow: 10px 20px 10px -15px black;
+}
+
+header,
+html {
+  width: 100%;
+}
+
+h2 {
+  display: none;
+}
+
+footer div {
+  margin: 0 40px 0 40px;
+}
+
+footer h4 {
+  font-size: 20px;
+  color: #fff;
+  padding-top: 35px;
+  margin-bottom: 35px;
+}
+
+footer > div > ul > a {
+  text-decoration: none;
+  color: #000;
+}
+
+nav {
+  background-color: gray;
+  width: 100%;
+  height: 175px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 15px;
+}
+
+.logo {
+  background-color: #696969;
+  width: 210px;
+  height: 76px;
+  margin: 5px 15px;
+  position: relative;
+}
+
+.navbar {
+  text-align: center;
+}
+
+.navbar > a {
+  margin: 0 auto;
+  color: #b8b8b8;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.navicon {
+  background-color: rgb(102, 101, 101);
+  margin: 0 auto;
+  height: 49px;
+  width: 35px;
+}
+
+.search {
+  position: relative;
+  right: 30px;
+}
+
+.search > a {
+  display: flex;
+  justify-content: space-between;
+  width: 70px;
+  height: 18px;
+  border: solid white 2px;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.featured-articles {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 0;
+}
+
+.latest {
+  position: absolute;
+  left: 30%;
+  width: 35%;
+  top: 2%;
+  text-align: center;
+}
+
+.latest > p {
+  background-color: #fff;
+  font-size: 40px;
+  font-weight: 600;
+  margin: 0 auto;
+  padding: 8px;
+  width: fit-content;
+}
+
+.seriously {
+  position: absolute;
+  display: flex;
+  color: #a1a1a1;
+  width: 230px;
+  top: 20px;
+  right: 20px;
+}
+
+.seriously p {
+  border: solid white 1px;
+  padding: 2px 5px;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+svg {
+  fill: rgb(143, 137, 137);
+  height: 60px;
+  width: 60px;
+  background-color: #a1a1a1;
+}
+
+.intro {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.intro p {
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.article1 {
+  background-color: #8a8a8a;
+}
+
+.article2 {
+  background-color: #666;
+}
+
+.article3 {
+  background-color: #8a8a8a;
+}
+
+.article4 {
+  background-color: #666;
+}
+
+.latest-article {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 10px;
+  grid-template-rows: repeat(3, 1fr);
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+  background-color: #a1a1a1;
+}
+
+.photo-name {
+  display: flex;
+  margin: 200px 100px;
+}
+
+.photo-name p {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.photo {
+  height: 80px;
+  width: 75px;
+  border: solid #fff 4px;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+
+.arrow {
+  color: #8e8e8e;
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+.one,
+.two,
+.three {
+  height: 682px;
+}
+
+.main {
+  padding: 0 40px;
+  line-height: 40px;
+  margin: 60px 0 0 50px;
+}
+
+.latest-article h5 {
+  color: #666;
+  font-size: 16px;
+}
+
+.latest-article h4 {
+  font-size: 16px;
+  color: #666;
+  font-weight: 600;
+}
+
+.latest-article h4 span {
+  text-decoration: underline;
+}
+
+.latest-article p {
+  font-size: 22px;
+  color: #333;
+  line-height: 35px;
+}
+
+.latest-arrow {
+  color: #8e8e8e;
+  font-size: 30px;
+  margin: 60px 0 0 1px;
+}
+
+.bigger {
+  background-color: #7a7a7a;
+}
+
+.advert {
+  display: flex;
+  justify-content: center;
+  height: 1000px;
+  background-color: gray;
+  margin-top: 10px;
+}
+
+.advert div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 700px;
+  flex-direction: column;
+}
+
+.advert h5 {
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+
+.advert h2 {
+  padding-top: 0;
+  margin-top: 2px;
+  font-size: 45px;
+}
+
+.weekly-image a {
+  width: 130px;
+  height: 130px;
+  border-radius: 3px;
+  border: solid #333 3px;
+  margin: 15px;
+}
+
+.advert h2 a {
+  margin-top: 0;
+  font-size: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  border-bottom: solid #888 3px;
+}
+
+.advert p {
+  text-align: center;
+  line-height: 35px;
+  font-size: 20px;
+}
+
+.advert h4 {
+  background-color: #fff;
+  font-size: 18px;
+  border-radius: 15px;
+  padding: 15px 15px;
+}
+
+.advert-image {
+  height: 500px;
+  background-color: #4a4a4a;
+  margin-bottom: 35px;
+}
+
+.person_of_the_week {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 10px 10px 30px;
+}
+
+.profile-img {
+  height: 200px;
+  width: 500px;
+  background-color: #666;
+  margin: 10px;
+}
+
+.person_of_the_week article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 10px 20px 10px 30px;
+}
+
+.design-system h4 {
+  width: fit-content;
+  color: #000;
+  font-size: 25px;
+  padding: 15px 15px;
+  border-radius: 20px;
+  font-weight: 600;
+  background-color: #fff;
+}
+
+.person_of_the_week article h4 {
+  font-size: 18px;
+  background-color: #fff;
+  color: #666;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.weekly-articles {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  margin: 100px 30px 20px 30px;
+}
+
+.weekly-articles div {
+  display: flex;
+}
+
+.community {
+  margin-left: 20px;
+  flex-direction: column;
+}
+
+.community h3,
+.community h3 a {
+  font-size: 20px;
+  color: #000;
+}
+
+.community h1,
+.community h1 a {
+  padding: 10px 10px 10px 0;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.community p {
+  margin: 0;
+  font-size: 20px;
+  line-height: 18px;
+}
+
+.time {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #666;
+}
+
+.week1,
+.week2,
+.week3,
+.week4,
+.week5,
+.week6 {
+  height: 442px;
+  margin-top: 10px;
+}
+
+.week1 {
+  background-color: gray;
+}
+
+.week2 {
+  background-color: #8e8e8e;
+}
+
+.week3 {
+  background-color: #6e6e6e;
+}
+
+.week4 {
+  background-color: gray;
+}
+
+.week5 {
+  background-color: #8b8b8b;
+}
+
+.week6 {
+  background-color: #8e8e8e;
+}
+
+.design-system {
+  background-color: #979595;
+  height: 409px;
+  width: 100%;
+  position: relative;
+}
+
+.design-system article {
+  width: 55%;
+  padding: 2%;
+  margin: 40px 20px 0 40px;
+}
+
+.design-system h3 {
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+.design-system h1 a {
+  font-size: 50px;
+  text-decoration: none;
+  border-bottom: solid #666 3px;
+}
+
+.design-system p {
+  font-size: 20px;
+  line-height: 35px;
+}
+
+.book {
+  width: 300px;
+  height: 400px;
+  position: absolute;
+  left: 65%;
+  top: -5%;
+  background-color: #333;
+}
+
+.guide {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-gap: 1rem;
+}
+
+.guides {
+  height: 435px;
+  margin: 10px 35px;
+  padding-top: 10px;
+  background-color: #696969;
+  text-align: center;
+}
+
+.smashing-newletter {
+  background-color: #a1a1a1;
+  width: 700px;
+  margin-left: 100px;
+  height: 750px;
+  text-align: center;
+}
+
+.see-all {
+  text-align: center;
+  color: #333;
+  font-size: 25px;
+  margin: 50px auto 90px auto;
+  text-decoration: underline;
+  width: fit-content;
+  justify-self: center;
+  align-self: center;
+  padding-bottom: 5px;
+}
+
+footer {
+  background-color: #a1a1a1;
+  text-align: center;
+}
+
+footer ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 35px auto 40px auto;
+  justify-content: center;
+  width: fit-content;
+}
+
+.topic {
+  margin: 15px 20px 5px 0;
+}
+
+.last-link {
+  display: flex;
+  position: relative;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.last-link p {
+  font-size: 15px;
+  margin: 5px;
+  padding: 0;
+}
+
+.last-link > ul > a {
+  margin: 0 15px 15px 15px;
+  list-style: none;
+  text-decoration: underline;
+}
+
+.last-link > p > a {
+  text-decoration: none;
+  color: #333;
+}
+
+.bird,
+.cat {
+  background-color: #333;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+}
+
+.bird {
+  left: -50%;
+  float: left;
+}
+
+.cat {
+  right: -50%;
+  float: right;
+}
+
+.cat-image {
+  background-color: #333;
+  height: 450px;
+  width: 460px;
+  margin: 40px 0 0 130px;
+}
+
+.subscribe {
+  height: 62px;
+  width: 400px;
+  background-color: #666;
+  border-radius: 3px;
+  margin: 40px 0 10px 150px;
+}
+
+.smashing-newletter > h3,
+.guides {
+  font-size: 24px;
+}
